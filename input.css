@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Даалгавар 3: Tailwind-д @custom-variant ашиглан dark mode тохируулах */
+@custom-variant dark (&:is(.dark *));
+
+/* Даалгавар 4: @theme-ээр --color-brand тодорхойлох */
+@theme {
+  --color-brand: #6f42c1;
+}
